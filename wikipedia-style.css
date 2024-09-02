@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Links */
+a {
+    color: #0645AD;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0B0080;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 4px;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+/* Paragraphs */
+p {
+    margin: 1em 0;
+}
+
+/* Lists */
+ul, ol {
+    margin: 1em 0;
+    padding-left: 40px;
+}
+
+/* Table of Contents */
+#toc {
+    background-color: #f9f9f9;
+    border: 1px solid #a2a9b1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#toc h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+#toc ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#toc li {
+    margin: 5px 0;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    margin: 1em 0;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #a2a9b1;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 1em 0;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #a2a9b1;
+}
+
+/* Code Blocks */
+pre, code {
+    background-color: #f8f9fa;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+    border-top: 1px solid #a2a9b1;
+    padding-top: 10px;
+}
