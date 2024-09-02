@@ -1,3 +1,3 @@
 Hello World============test!
 
-[about us](intro/about.rst)
+[about us](intro/about.html)
